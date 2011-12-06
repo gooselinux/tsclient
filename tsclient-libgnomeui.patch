@@ -1,0 +1,12 @@
+diff -up tsclient-2.0.1/configure.ac.libgnomeui tsclient-2.0.1/configure.ac
+--- tsclient-2.0.1/configure.ac.libgnomeui	2008-11-13 14:05:44.000000000 -0500
++++ tsclient-2.0.1/configure.ac	2008-11-13 14:06:17.000000000 -0500
+@@ -32,7 +32,7 @@ AM_PROG_LIBTOOL
+ 
+ ### get cflags and libs
+ 
+-PKG_CHECK_MODULES(TSC, glib-2.0 gmodule-2.0 gobject-2.0 gtk+-2.0 libglade-2.0 libgnome-2.0 gnome-desktop-2.0 gnome-vfs-2.0 libnotify gconf-2.0 libnm_glib)
++PKG_CHECK_MODULES(TSC, glib-2.0 gmodule-2.0 gobject-2.0 gtk+-2.0 libglade-2.0 libgnome-2.0 gnome-desktop-2.0 gnome-vfs-2.0 libgnomeui-2.0 libnotify gconf-2.0 libnm-glib)
+ TSC_CFLAGS="-Wall $TSC_CFLAGS"
+ 
+ ### Internationalization support

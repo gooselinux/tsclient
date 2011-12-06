@@ -1,0 +1,90 @@
+diff -up tsclient-2.0.2/data/tsclient.glade.wrong-glade-ids tsclient-2.0.2/data/tsclient.glade
+--- tsclient-2.0.2/data/tsclient.glade.wrong-glade-ids	2009-04-22 01:16:55.614002504 -0400
++++ tsclient-2.0.2/data/tsclient.glade	2009-04-22 01:17:01.264040184 -0400
+@@ -503,7 +503,6 @@ Prompt For Reconnect After Error</proper
+                             <property name="receives_default">False</property>
+                             <property name="use_underline">True</property>
+                             <property name="draw_indicator">True</property>
+-                            <property name="group">rdp_fullscreen_radio</property>
+                           </widget>
+                           <packing>
+                             <property name="top_attach">5</property>
+@@ -915,7 +914,6 @@ LAN</property>
+                             <property name="receives_default">False</property>
+                             <property name="use_underline">True</property>
+                             <property name="draw_indicator">True</property>
+-                            <property name="group">vnc_fullscreen_radio</property>
+                           </widget>
+                           <packing>
+                             <property name="top_attach">4</property>
+@@ -992,7 +990,7 @@ LAN</property>
+                           </packing>
+                         </child>
+                         <child>
+-                          <widget class="GtkEntry" id="password_entry1">
++                          <widget class="GtkEntry" id="password_entry">
+                             <property name="visible">True</property>
+                             <property name="can_focus">True</property>
+                             <property name="visibility">False</property>
+@@ -1019,7 +1017,7 @@ LAN</property>
+                           </packing>
+                         </child>
+                         <child>
+-                          <widget class="GtkEntry" id="host_entry1">
++                          <widget class="GtkEntry" id="host_entry">
+                             <property name="visible">True</property>
+                             <property name="can_focus">True</property>
+                             <property name="activates_default">True</property>
+@@ -1253,7 +1251,7 @@ LAN</property>
+                       </packing>
+                     </child>
+                     <child>
+-                      <widget class="GtkEntry" id="host_entry2">
++                      <widget class="GtkEntry" id="host_entry">
+                         <property name="visible">True</property>
+                         <property name="can_focus">True</property>
+                       </widget>
+@@ -1422,7 +1420,6 @@ LAN</property>
+                             <property name="receives_default">False</property>
+                             <property name="use_underline">True</property>
+                             <property name="draw_indicator">True</property>
+-                            <property name="group">xdmcp_fullscreen_radio</property>
+                           </widget>
+                           <packing>
+                             <property name="top_attach">2</property>
+@@ -1449,7 +1446,7 @@ LAN</property>
+                           </packing>
+                         </child>
+                         <child>
+-                          <widget class="GtkEntry" id="host_entry3">
++                          <widget class="GtkEntry" id="host_entry">
+                             <property name="visible">True</property>
+                             <property name="can_focus">True</property>
+                             <property name="activates_default">True</property>
+@@ -1565,7 +1562,7 @@ LAN</property>
+                     <property name="column_spacing">6</property>
+                     <property name="row_spacing">6</property>
+                     <child>
+-                      <widget class="GtkEntry" id="password_entry2">
++                      <widget class="GtkEntry" id="password_entry">
+                         <property name="visible">True</property>
+                         <property name="can_focus">True</property>
+                         <property name="visibility">False</property>
+@@ -1672,7 +1669,7 @@ LAN</property>
+                       </packing>
+                     </child>
+                     <child>
+-                      <widget class="GtkCheckButton" id="terminal_checkbox1">
++                      <widget class="GtkCheckButton" id="terminal_checkbox">
+                         <property name="label" translatable="yes">Run in terminal window</property>
+                         <property name="visible">True</property>
+                         <property name="can_focus">True</property>
+@@ -1687,7 +1684,7 @@ LAN</property>
+                       </packing>
+                     </child>
+                     <child>
+-                      <widget class="GtkEntry" id="host_entry4">
++                      <widget class="GtkEntry" id="host_entry">
+                         <property name="visible">True</property>
+                         <property name="can_focus">True</property>
+                       </widget>
